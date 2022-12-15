@@ -1,1 +1,1 @@
-my fisrt readme
+0x03. C - Debugging

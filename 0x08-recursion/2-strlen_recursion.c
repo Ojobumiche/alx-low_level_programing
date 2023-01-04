@@ -1,5 +1,3 @@
-Task 2: 2-strlen_recursion.c
-
 #include "main.h"
 /**
  * _strlen_recursion - length of string

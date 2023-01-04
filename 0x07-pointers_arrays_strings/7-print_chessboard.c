@@ -1,4 +1,4 @@
-#include "main.h"
+#includie "main.h"
 
 /**
  * print_chessboard - a function that prints the chessboard.

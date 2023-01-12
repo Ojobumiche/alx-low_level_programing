@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _print - moves a string one place to the left and prints the string
@@ -60,7 +61,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	}
 	return (dest);
 }
-
 /**
  * check_for_digits - checks the arguments to ensure they are digits
  * @av: pointer to arguments
@@ -105,7 +105,6 @@ void init(char *str, int l)
  *
  * Return: zero, or exit status of 98 if failure
  */
-
 int main(int argc, char *argv[])
 {
 	int l1, l2, ln, ti, i;
@@ -145,4 +144,4 @@ int main(int argc, char *argv[])
 	}
 	_print(a, ln - 1);
 	return (0);
-}
+}}

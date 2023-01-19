@@ -8,4 +8,4 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 int isAval(char c);
 
-#endif/VARIADIC_FUNC/
+#endif/*VARIADIC_FUNC*/

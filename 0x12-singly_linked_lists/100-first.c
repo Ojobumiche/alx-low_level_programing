@@ -5,8 +5,8 @@
  * Return: void
  */
 
-void _attribute_ ((constructor)) premain()
+void __attribute__ ((constructor)) premain()
 {
-	printf("You're beat! and yet, you must allow,\n%s",
+	printf("You're beat! and yet, you must allow,\n%s", 
 			"I bore my house upon my back!\n");
 }

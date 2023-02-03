@@ -29,3 +29,38 @@ unsigned int binary_to_uint(const char *b)
 	return (dec);
 }
 
+/**
+ * _strlen - a function that len string.
+ * @s: is a pointer to a char.
+ * Return: len.
+ */
+unsigned int _strlen(const char *s)
+{
+	unsigned int x = 0;
+
+	while (*(s + x) != '\0')
+	{
+		x++;
+	}
+	return (x);
+}
+
+/**
+ * power - a function that raises the power of base.
+ * @base: base
+ * @exp: exponent
+ * Return: base raised to exp
+ */
+unsigned int power(unsigned int base, unsigned int exp)
+{
+	unsigned int x = 0;
+	unsigned int raised = 1;
+
+
+	if (exp == 0)
+		return (1);
+
+	for (x = 0; x < exp; x++)
+		raised = raised * base;
+	return (raised);
+}

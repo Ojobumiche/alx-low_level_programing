@@ -20,4 +20,4 @@ char *create_buffer(char *file);
 void close_file(int fd);
 void print_elf(int elf);
 
-#endif /MAIN_H/
+#endif /*MAIN_H*/

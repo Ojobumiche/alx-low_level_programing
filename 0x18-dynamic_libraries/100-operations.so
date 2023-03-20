@@ -1,3 +1,26 @@
-#!/bin/bash
-wget -P /tmp https://github.com/Lexxyla/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+#include <stdio.h>
+int add(int a,int b)
+{
+	return a + b;
+}
+
+int sub(int a,int b)
+{
+        return a - b;
+}
+
+int mul(int a,int b)
+{
+        return a * b;
+}
+
+
+int div(int a,int b)
+{
+        return a / b;
+}
+
+int mod(int a,int b)
+{
+        return a % b;
+}

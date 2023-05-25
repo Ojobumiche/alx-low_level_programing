@@ -1,3 +1,3 @@
 	all: main.c school.c
-		igcc main.c school.c -o school
+		gcc main.c school.c -o school
 

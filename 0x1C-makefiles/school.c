@@ -1,4 +1,5 @@
 #include "m.h"
+#include <stdio.h>
 
 /**
  * print_school
